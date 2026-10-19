@@ -54,6 +54,7 @@
   #detail .content h1, #detail .content h2, #detail .content h3 { font-size: 16px; margin: 18px 0 6px; }
   #detail .content ul, #detail .content ol { padding-left: 22px; margin: 6px 0; }
   #detail .content p { margin: 6px 0; }
+  #detail .comment { border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; margin: 8px 0; }
   .callout { display: flex; gap: 8px; background: var(--accent-soft); border-radius: 6px; padding: 8px 12px; margin: 8px 0; }
   .callout p { margin: 0; }
   .task { list-style: none; margin-left: -20px; }
@@ -212,6 +213,8 @@ function showDetail(id) {
       ${it.url ? ` · <a href="${esc(it.url)}" target="_blank" rel="noopener">Open in ${esc(it.service)} ↗</a>` : ""}</div>
     ${props.length ? `<table class="props-table">${props.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(propText(v))}</td></tr>`).join("")}</table>` : ""}
     <div class="content">${it.content ? renderMarkdown(it.content) : '<p class="meta">This item has no body text.</p>'}</div>
+    ${it.comments?.length ? `<div class="content"><h3>Comments (${it.comments.length})</h3>${it.comments.map((c) =>
+      `<div class="comment"><div class="meta">${esc(c.author)}${c.createdAt ? " · " + esc(fmtDate(c.createdAt)) : ""}</div>${renderMarkdown(c.body)}</div>`).join("")}</div>` : ""}
     <p class="meta" style="margin-top:24px">Stored at dataExports/${esc(it.path)} · exported ${esc(fmtDate(it.exportedAt))}</p>`;
 }
 

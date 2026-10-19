@@ -77,6 +77,17 @@ def parent_title(data):
     return data.get("repo")
 
 
+def comment_list(data):
+    """Comments on a GitHub issue/PR or Linear issue, oldest first, reduced to author, body and date."""
+    comments = data.get("comments")
+    if not isinstance(comments, list):
+        return []
+    out = [{"author": plain_value(c.get("author") or c.get("user")) or "",
+            "body": c.get("body") or "", "createdAt": c.get("createdAt")}
+           for c in comments if isinstance(c, dict)]
+    return sorted(out, key=lambda c: c["createdAt"] or "")
+
+
 def load_items():
     items, services = [], []
     if not EXPORTS.exists():
@@ -107,6 +118,7 @@ def load_items():
                 "properties": summary_properties(data),
                 "parent": parent_title(data),
                 "content": content,
+                "comments": comment_list(data),
             })
             count += 1
         services.append({
