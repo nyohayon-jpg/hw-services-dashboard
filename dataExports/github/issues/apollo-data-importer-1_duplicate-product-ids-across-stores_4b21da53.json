@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-data-importer/issues/1",
+  "title": "Duplicate product IDs across stores",
+  "date": "2026-10-18T18:37:25Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-data-importer/issues/1",
+  "searchText": "duplicate product ids across stores issue nyohayon-jpg/apollo-data-importer last night's import overwrote products because `product_id` is only unique **within** a store. store 3 and store 7 both have product_id 10452 (different items). fix: key products by `(store_id, product_id)` instead of `product_id` alone. reported by priya shah. open nyohayon-jpg bug backend 6253625595 nyohayon-jpg priya shah: confirmed with a sample from store 3 and store 7 – 214 product ids collide. pr coming. 2026-10-18t18:37:25z 2026-10-18t18:36:51z 2026-10-18t18:37:25z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_issues",
+      "issue_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "issue",
+    "repo": "nyohayon-jpg/apollo-data-importer",
+    "number": 1,
+    "body": "Last night's import overwrote products because `product_id` is only unique **within** a store. Store 3 and Store 7 both have product_id 10452 (different items).\n\nFix: key products by `(store_id, product_id)` instead of `product_id` alone.\n\nReported by Priya Shah.",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "bug",
+      "backend"
+    ],
+    "milestone": null,
+    "merged": null,
+    "draft": null,
+    "comments": [
+      {
+        "id": "6253625595",
+        "author": "nyohayon-jpg",
+        "body": "Priya Shah: Confirmed with a sample from Store 3 and Store 7 – 214 product IDs collide. PR coming.",
+        "createdAt": "2026-10-18T18:37:25Z"
+      }
+    ],
+    "createdAt": "2026-10-18T18:36:51Z",
+    "updatedAt": "2026-10-18T18:37:25Z",
+    "closedAt": null,
+    "raw": {
+      "number": 1,
+      "title": "Duplicate product IDs across stores",
+      "body": "Last night's import overwrote products because `product_id` is only unique **within** a store. Store 3 and Store 7 both have product_id 10452 (different items).\n\nFix: key products by `(store_id, product_id)` instead of `product_id` alone.\n\nReported by Priya Shah.",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "bug",
+        "backend"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:36:51Z",
+      "updated_at": "2026-10-18T18:37:25Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-data-importer/issues/1",
+      "comments": 1
+    }
+  }
+}

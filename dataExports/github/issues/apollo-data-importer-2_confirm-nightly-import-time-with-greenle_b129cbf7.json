@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-data-importer/issues/2",
+  "title": "Confirm nightly import time with Greenleaf IT",
+  "date": "2026-10-18T18:37:26Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-data-importer/issues/2",
+  "searchText": "confirm nightly import time with greenleaf it issue nyohayon-jpg/apollo-data-importer we currently assume csvs land on sftp by 02:00. need sarah kim to confirm the exact drop time with greenleaf it so we can schedule the cron job safely. owner: joe smith. open nyohayon-jpg client 6253625761 nyohayon-jpg joe smith: emailed sarah kim on monday. she'll check with greenleaf it and get back to us by thursday. 2026-10-18t18:37:26z 2026-10-18t18:36:54z 2026-10-18t18:37:26z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_issues",
+      "issue_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "issue",
+    "repo": "nyohayon-jpg/apollo-data-importer",
+    "number": 2,
+    "body": "We currently assume CSVs land on SFTP by 02:00. Need Sarah Kim to confirm the exact drop time with Greenleaf IT so we can schedule the cron job safely.\n\nOwner: Joe Smith.",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "client"
+    ],
+    "milestone": null,
+    "merged": null,
+    "draft": null,
+    "comments": [
+      {
+        "id": "6253625761",
+        "author": "nyohayon-jpg",
+        "body": "Joe Smith: Emailed Sarah Kim on Monday. She'll check with Greenleaf IT and get back to us by Thursday.",
+        "createdAt": "2026-10-18T18:37:26Z"
+      }
+    ],
+    "createdAt": "2026-10-18T18:36:54Z",
+    "updatedAt": "2026-10-18T18:37:26Z",
+    "closedAt": null,
+    "raw": {
+      "number": 2,
+      "title": "Confirm nightly import time with Greenleaf IT",
+      "body": "We currently assume CSVs land on SFTP by 02:00. Need Sarah Kim to confirm the exact drop time with Greenleaf IT so we can schedule the cron job safely.\n\nOwner: Joe Smith.",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "client"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:36:54Z",
+      "updated_at": "2026-10-18T18:37:26Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-data-importer/issues/2",
+      "comments": 1
+    }
+  }
+}

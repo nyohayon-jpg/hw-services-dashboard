@@ -1,0 +1,1 @@
+Run all 5 test cases on Chrome and iPad Safari before the go / no-go meeting.

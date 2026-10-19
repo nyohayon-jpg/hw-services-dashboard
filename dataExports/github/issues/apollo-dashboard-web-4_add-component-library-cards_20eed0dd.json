@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-dashboard-web/pull/4",
+  "title": "Add component library cards",
+  "date": "2026-10-18T18:37:29Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/pull/4",
+  "searchText": "add component library cards pull_request nyohayon-jpg/apollo-dashboard-web adds reusable `statcard` (kpis like total sales) and `alertcard` (low-stock alerts) components for the dashboard. author: daniel levi · reviewer: joe smith open nyohayon-jpg frontend 6253626322 nyohayon-jpg joe smith: nice. please make sure alertcard works in rtl for the hebrew interface (#3). 2026-10-18t18:37:29z 2026-10-18t18:37:15z 2026-10-18t18:37:29z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_pull_requests",
+      "pull_request_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "pull_request",
+    "repo": "nyohayon-jpg/apollo-dashboard-web",
+    "number": 4,
+    "body": "Adds reusable `StatCard` (KPIs like total sales) and `AlertCard` (low-stock alerts) components for the dashboard.\n\nAuthor: Daniel Levi · Reviewer: Joe Smith",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "frontend"
+    ],
+    "milestone": null,
+    "merged": false,
+    "draft": false,
+    "comments": [
+      {
+        "id": "6253626322",
+        "author": "nyohayon-jpg",
+        "body": "Joe Smith: Nice. Please make sure AlertCard works in RTL for the Hebrew interface (#3).",
+        "createdAt": "2026-10-18T18:37:29Z"
+      }
+    ],
+    "createdAt": "2026-10-18T18:37:15Z",
+    "updatedAt": "2026-10-18T18:37:29Z",
+    "closedAt": null,
+    "raw": {
+      "number": 4,
+      "title": "Add component library cards",
+      "body": "Adds reusable `StatCard` (KPIs like total sales) and `AlertCard` (low-stock alerts) components for the dashboard.\n\nAuthor: Daniel Levi · Reviewer: Joe Smith",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "frontend"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:37:15Z",
+      "updated_at": "2026-10-18T18:37:29Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/pull/4",
+      "draft": false,
+      "merged": false,
+      "head": {
+        "ref": "feature/component-cards",
+        "sha": "3fb30a06a4b3c804d408f072306637abc64a73a7"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "001b8d6b79d163de4ea3969013f5c6bf9b6e7d36"
+      }
+    }
+  }
+}

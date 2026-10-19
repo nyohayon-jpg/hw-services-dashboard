@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-api/issues/1",
+  "title": "Add stock alerts endpoint",
+  "date": "2026-10-18T18:37:24Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-api/issues/1",
+  "searchText": "add stock alerts endpoint issue nyohayon-jpg/apollo-api add `get /alerts/stock` returning products below their reorder threshold, per store. - threshold configurable per product (default 10 units) - response: store_id, product_id, name, on_hand, threshold owner: maya cohen. requested by sarah kim (greenleaf grocers). open nyohayon-jpg backend 6253625437 nyohayon-jpg maya cohen: started on this. proposing default threshold of 10 units until greenleaf sends per-product values. 2026-10-18t18:37:24z 2026-10-18t18:36:50z 2026-10-18t18:37:24z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_issues",
+      "issue_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "issue",
+    "repo": "nyohayon-jpg/apollo-api",
+    "number": 1,
+    "body": "Add `GET /alerts/stock` returning products below their reorder threshold, per store.\n\n- Threshold configurable per product (default 10 units)\n- Response: store_id, product_id, name, on_hand, threshold\n\nOwner: Maya Cohen. Requested by Sarah Kim (Greenleaf Grocers).",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "backend"
+    ],
+    "milestone": null,
+    "merged": null,
+    "draft": null,
+    "comments": [
+      {
+        "id": "6253625437",
+        "author": "nyohayon-jpg",
+        "body": "Maya Cohen: Started on this. Proposing default threshold of 10 units until Greenleaf sends per-product values.",
+        "createdAt": "2026-10-18T18:37:24Z"
+      }
+    ],
+    "createdAt": "2026-10-18T18:36:50Z",
+    "updatedAt": "2026-10-18T18:37:24Z",
+    "closedAt": null,
+    "raw": {
+      "number": 1,
+      "title": "Add stock alerts endpoint",
+      "body": "Add `GET /alerts/stock` returning products below their reorder threshold, per store.\n\n- Threshold configurable per product (default 10 units)\n- Response: store_id, product_id, name, on_hand, threshold\n\nOwner: Maya Cohen. Requested by Sarah Kim (Greenleaf Grocers).",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "backend"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:36:50Z",
+      "updated_at": "2026-10-18T18:37:24Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-api/issues/1",
+      "comments": 1
+    }
+  }
+}

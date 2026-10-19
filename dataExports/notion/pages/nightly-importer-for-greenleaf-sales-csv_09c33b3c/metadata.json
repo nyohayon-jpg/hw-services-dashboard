@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "service": "notion",
+  "id": "3fd2137e-c7db-81e8-9ddc-dfcf0dea1b0f",
+  "title": "Nightly importer for Greenleaf sales CSV",
+  "date": "2026-10-18T17:03:31.434Z",
+  "url": "https://www.notion.so/3fd2137ec7db81e89ddcdfcf0dea1b0f",
+  "searchText": "nightly importer for greenleaf sales csv page database d639e7a1-dbd8-4d46-a438-43244375ac8c apollo task tracker 2026-10-18t17:03:31.434z page_last_edited_at (notion-fetch returned no created time or authors) nightly importer for greenleaf sales csv in progress high daniel levi backend 2026-10-24 python job that loads the point-of-sale export into postgresql every night at 02:00. must use (store_id, product_id) as the key.",
+  "exportedAt": "2026-10-18T17:17:24Z",
+  "source": {
+    "mcpServer": "notion",
+    "tools": [
+      "notion-search",
+      "notion-fetch"
+    ],
+    "query": "Everything under the Notion page \"Bluebird Labs – Project Apollo Hub\": the hub, all its sub-pages, and every row of the \"Apollo Task Tracker\" database"
+  },
+  "data": {
+    "objectType": "page",
+    "parent": {
+      "type": "database",
+      "id": "d639e7a1-dbd8-4d46-a438-43244375ac8c",
+      "title": "Apollo Task Tracker"
+    },
+    "icon": null,
+    "createdTime": null,
+    "lastEditedTime": "2026-10-18T17:03:31.434Z",
+    "createdBy": null,
+    "lastEditedBy": null,
+    "archived": false,
+    "dateSource": "page_last_edited_at (notion-fetch returned no created time or authors)",
+    "properties": {
+      "Task": "Nightly importer for Greenleaf sales CSV",
+      "Status": "In progress",
+      "Priority": "High",
+      "Owner": "Daniel Levi",
+      "Tags": [
+        "backend"
+      ],
+      "Due": "2026-10-24"
+    },
+    "childPages": [],
+    "raw": {
+      "metadata": {
+        "type": "page"
+      },
+      "title": "Nightly importer for Greenleaf sales CSV",
+      "url": "https://app.notion.com/p/3fd2137ec7db81e89ddcdfcf0dea1b0f?pvs=204",
+      "fetchedAt": "2026-10-18T17:03:31.453Z",
+      "ancestorPath": [
+        {
+          "type": "parent-data-source",
+          "url": "collection://be1dfc1a-ecb7-4fe9-8946-99734fd904d1",
+          "name": "Apollo Task Tracker"
+        },
+        {
+          "type": "ancestor-2-database",
+          "url": "https://app.notion.com/p/d639e7a1dbd84d46a43843244375ac8c",
+          "title": "Apollo Task Tracker"
+        },
+        {
+          "type": "ancestor-3-page",
+          "url": "https://app.notion.com/p/3fd2137ec7db81e2bb07c3bcedf6c5ef",
+          "title": "Bluebird Labs – Project Apollo Hub"
+        }
+      ],
+      "properties": {
+        "Owner": "Daniel Levi",
+        "Priority": "High",
+        "Status": "In progress",
+        "Tags": [
+          "backend"
+        ],
+        "Task": "Nightly importer for Greenleaf sales CSV",
+        "date:Due:is_datetime": 0,
+        "date:Due:start": "2026-10-24",
+        "url": "https://app.notion.com/p/3fd2137ec7db81e89ddcdfcf0dea1b0f"
+      },
+      "iconMetadata": null,
+      "cover": null,
+      "icon": null,
+      "verification": {
+        "state": "unverified"
+      },
+      "page_last_edited_at": "2026-10-18T17:03:31.434Z",
+      "path": "Bluebird Labs – Project Apollo Hub / Apollo Task Tracker"
+    },
+    "contentFile": "content.md",
+    "contentLength": 128
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/3",
+  "title": "Hebrew and English interface",
+  "date": "2026-10-18T18:37:27Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/3",
+  "searchText": "hebrew and english interface issue nyohayon-jpg/apollo-dashboard-web greenleaf staff use both hebrew and english. dashboard needs: - language switcher (he / en) - rtl layout for hebrew - all ui strings in translation files sarah kim to provide the preferred hebrew terms for product categories. open nyohayon-jpg frontend client 6253625967 nyohayon-jpg daniel levi: sarah kim confirmed hebrew should be the default language for store staff. 2026-10-18t18:37:27z 2026-10-18t18:36:55z 2026-10-18t18:37:27z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_issues",
+      "issue_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "issue",
+    "repo": "nyohayon-jpg/apollo-dashboard-web",
+    "number": 3,
+    "body": "Greenleaf staff use both Hebrew and English. Dashboard needs:\n\n- Language switcher (HE / EN)\n- RTL layout for Hebrew\n- All UI strings in translation files\n\nSarah Kim to provide the preferred Hebrew terms for product categories.",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "frontend",
+      "client"
+    ],
+    "milestone": null,
+    "merged": null,
+    "draft": null,
+    "comments": [
+      {
+        "id": "6253625967",
+        "author": "nyohayon-jpg",
+        "body": "Daniel Levi: Sarah Kim confirmed Hebrew should be the default language for store staff.",
+        "createdAt": "2026-10-18T18:37:27Z"
+      }
+    ],
+    "createdAt": "2026-10-18T18:36:55Z",
+    "updatedAt": "2026-10-18T18:37:27Z",
+    "closedAt": null,
+    "raw": {
+      "number": 3,
+      "title": "Hebrew and English interface",
+      "body": "Greenleaf staff use both Hebrew and English. Dashboard needs:\n\n- Language switcher (HE / EN)\n- RTL layout for Hebrew\n- All UI strings in translation files\n\nSarah Kim to provide the preferred Hebrew terms for product categories.",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "frontend",
+        "client"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:36:55Z",
+      "updated_at": "2026-10-18T18:37:27Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/3",
+      "comments": 1
+    }
+  }
+}

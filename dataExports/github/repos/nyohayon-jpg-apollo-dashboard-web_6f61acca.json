@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-dashboard-web",
+  "title": "nyohayon-jpg/apollo-dashboard-web",
+  "date": "2026-10-18T18:36:26Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-dashboard-web",
+  "searchText": "nyohayon-jpg/apollo-dashboard-web repo nyohayon-jpg/apollo-dashboard-web nyohayon-jpg apollo-dashboard-web project apollo – web dashboard frontend for greenleaf grocers (bluebird labs) public main # apollo-dashboard-web frontend for the **project apollo** dashboard, used by greenleaf grocers store managers to see stock levels and sales trends. ## features (planned) - sales charts with 7-day / 30-day toggle - low-stock alert cards - export to excel - hebrew and english interface (rtl support) ## team daniel levi (frontend), joe smith (lead). client: sarah kim, greenleaf grocers. ## dev ```bash npm install npm run dev ``` 2026-10-18t18:36:17z 2026-10-18t18:36:26z 2026-10-18t18:37:13z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "search_repositories",
+      "get_file_contents"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "repo",
+    "fullName": "nyohayon-jpg/apollo-dashboard-web",
+    "owner": "nyohayon-jpg",
+    "name": "apollo-dashboard-web",
+    "description": "Project Apollo – web dashboard frontend for Greenleaf Grocers (Bluebird Labs)",
+    "visibility": "public",
+    "defaultBranch": "main",
+    "language": null,
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 4,
+    "license": null,
+    "homepage": null,
+    "readme": "# apollo-dashboard-web\n\nFrontend for the **Project Apollo** dashboard, used by Greenleaf Grocers store managers to see stock levels and sales trends.\n\n## Features (planned)\n- Sales charts with 7-day / 30-day toggle\n- Low-stock alert cards\n- Export to Excel\n- Hebrew and English interface (RTL support)\n\n## Team\nDaniel Levi (frontend), Joe Smith (lead). Client: Sarah Kim, Greenleaf Grocers.\n\n## Dev\n```bash\nnpm install\nnpm run dev\n```\n",
+    "createdAt": "2026-10-18T18:36:17Z",
+    "updatedAt": "2026-10-18T18:36:26Z",
+    "pushedAt": "2026-10-18T18:37:13Z",
+    "raw": {
+      "id": 1424694130,
+      "name": "apollo-dashboard-web",
+      "full_name": "nyohayon-jpg/apollo-dashboard-web",
+      "description": "Project Apollo – web dashboard frontend for Greenleaf Grocers (Bluebird Labs)",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-dashboard-web",
+      "private": false,
+      "visibility": "public",
+      "default_branch": "main",
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-10-18T18:36:17Z",
+      "updated_at": "2026-10-18T18:36:26Z",
+      "pushed_at": "2026-10-18T18:37:13Z",
+      "size": 1,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 4
+    }
+  }
+}

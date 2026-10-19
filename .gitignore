@@ -1,0 +1,17 @@
+# Temporary batch files written by the download skills
+.tmp/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+client_secret*.json
+credentials*.json
+token*.json
+.claude/settings.local.json
+
+# OS / editor / runtimes
+.DS_Store
+Thumbs.db
+__pycache__/
+node_modules/

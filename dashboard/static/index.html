@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services Dashboard</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --text: #1d2330; --muted: #667085; --border: #e3e6eb;
+    --accent: #1e6fd9; --accent-soft: #e8f0fc; --mark: #fff2a8;
+    --notion: #37352f; --linear: #5e6ad2; --gmail: #d93025; --github: #24292f; --other: #667085;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151b; --panel: #1a1f27; --text: #e6e9ef; --muted: #98a2b3; --border: #2a313c;
+      --accent: #5b9bf0; --accent-soft: #1d2a3d; --mark: #5c4d00;
+      --notion: #c9c7c1; --linear: #8b93ff; --gmail: #f28b82; --github: #c9d1d9; --other: #98a2b3;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 20px 24px 12px; border-bottom: 1px solid var(--border); background: var(--panel); }
+  h1 { margin: 0 0 4px; font-size: 20px; }
+  .sub { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+  .searchbar { display: flex; gap: 8px; flex-wrap: wrap; }
+  #q { flex: 1 1 280px; padding: 10px 12px; font-size: 16px; border: 1px solid var(--border);
+       border-radius: 8px; background: var(--bg); color: var(--text); }
+  #q:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  select { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+           background: var(--bg); color: var(--text); font-size: 14px; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+  .chip { border: 1px solid var(--border); background: var(--panel); color: var(--text); border-radius: 999px;
+          padding: 4px 12px; font-size: 13px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .chip .n { color: var(--muted); margin-left: 4px; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 0; min-height: calc(100vh - 150px); }
+  #results { border-right: 1px solid var(--border); overflow-y: auto; max-height: calc(100vh - 150px); }
+  #status { padding: 10px 24px; color: var(--muted); font-size: 13px; border-bottom: 1px solid var(--border); }
+  .result { padding: 12px 24px; border-bottom: 1px solid var(--border); cursor: pointer; }
+  .result:hover { background: var(--accent-soft); }
+  .result[aria-selected="true"] { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+  .row1 { display: flex; align-items: center; gap: 8px; }
+  .title { font-weight: 600; }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .snippet { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  mark { background: var(--mark); color: inherit; border-radius: 2px; }
+  .badge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em;
+           padding: 1px 7px; border-radius: 4px; border: 1px solid currentColor; flex: none; }
+  .props { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
+  .prop { font-size: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 0 6px; }
+  #detail { padding: 20px 28px; overflow-y: auto; max-height: calc(100vh - 150px); }
+  #detail h2 { margin: 6px 0 4px; font-size: 22px; }
+  #detail .content h1, #detail .content h2, #detail .content h3 { font-size: 16px; margin: 18px 0 6px; }
+  #detail .content ul, #detail .content ol { padding-left: 22px; margin: 6px 0; }
+  #detail .content p { margin: 6px 0; }
+  .callout { display: flex; gap: 8px; background: var(--accent-soft); border-radius: 6px; padding: 8px 12px; margin: 8px 0; }
+  .callout p { margin: 0; }
+  .task { list-style: none; margin-left: -20px; }
+  .task.done { color: var(--muted); text-decoration: line-through; }
+  .props-table { border-collapse: collapse; margin: 10px 0; font-size: 13px; }
+  .props-table td { padding: 3px 12px 3px 0; vertical-align: top; }
+  .props-table td:first-child { color: var(--muted); }
+  a { color: var(--accent); }
+  .empty { color: var(--muted); padding: 40px 24px; text-align: center; }
+  @media (max-width: 760px) {
+    header { padding: 16px; }
+    main { grid-template-columns: 1fr; }
+    #results { border-right: 0; max-height: none; }
+    #detail { max-height: none; border-top: 1px solid var(--border); padding: 16px; }
+    .result, #status { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Services Dashboard</h1>
+  <p class="sub" id="sub">Loading dataExports/ …</p>
+  <div class="searchbar">
+    <input id="q" type="search" placeholder="Search all services… (e.g. Sarah Kim, importer, stock alerts)" autofocus>
+    <select id="sort" aria-label="Sort">
+      <option value="relevance">Best match</option>
+      <option value="newest">Newest first</option>
+      <option value="title">Title A–Z</option>
+    </select>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+<main>
+  <section id="results" aria-label="Results">
+    <div id="status"></div>
+    <div id="list"></div>
+  </section>
+  <section id="detail" aria-live="polite"><div class="empty">Select a result to see it here.</div></section>
+</main>
+<script>
+const state = { items: [], services: [], service: "all", selected: null };
+const $ = (id) => document.getElementById(id);
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const terms = () => $("q").value.toLowerCase().split(/\s+/).filter(Boolean);
+const reTerms = (ts) => ts.length ? new RegExp("(" + ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")", "gi") : null;
+const highlight = (text, re) => re ? esc(text).replace(re, "<mark>$1</mark>") : esc(text);
+const fmtDate = (d) => {
+  if (!d) return "";
+  const dt = new Date(d.length === 10 ? d + "T00:00:00" : d); // date-only values are local days, not UTC midnight
+  return isNaN(dt) ? d : dt.toLocaleString(undefined, { dateStyle: "medium", ...(d.length > 10 ? { timeStyle: "short" } : {}) });
+};
+const serviceColor = (s) => `var(--${["notion", "linear", "gmail", "github"].includes(s) ? s : "other"})`;
+const propText = (v) => Array.isArray(v) ? v.join(", ") : typeof v === "boolean" ? (v ? "Yes" : "No") : String(v ?? "");
+
+// Plain text of a Notion-flavored Markdown body, for snippets.
+function plain(md) {
+  return md.replace(/<mention-date start="([^"]+)"[^>]*\/>/g, "$1").replace(/<[^>]+>/g, " ")
+           .replace(/[#*`>\\]|- \[[ x]\]/g, "").replace(/\s+/g, " ").trim();
+}
+
+function snippet(item, ts, re) {
+  const text = plain(item.content || "");
+  if (!text) return "";
+  let at = 0;
+  if (ts.length) {
+    const lower = text.toLowerCase();
+    const hits = ts.map((t) => lower.indexOf(t)).filter((i) => i >= 0);
+    at = hits.length ? Math.max(0, Math.min(...hits) - 50) : 0;
+  }
+  const cut = text.slice(at, at + 170);
+  return (at > 0 ? "…" : "") + highlight(cut, re) + (at + 170 < text.length ? "…" : "");
+}
+
+function score(item, ts) {
+  if (!ts.length) return 1;
+  const hay = item.searchText, title = item.title.toLowerCase();
+  let s = 0;
+  for (const t of ts) {
+    if (!hay.includes(t)) return 0; // every word must match
+    s += hay.split(t).length - 1 + (title.includes(t) ? 10 : 0);
+  }
+  return s;
+}
+
+function renderChips() {
+  const all = { name: "all", count: state.items.length };
+  $("chips").innerHTML = [all, ...state.services].map((s) =>
+    `<button class="chip" data-s="${esc(s.name)}" aria-pressed="${state.service === s.name}">` +
+    `${s.name === "all" ? "All services" : esc(s.name)}<span class="n">${s.count}</span></button>`).join("");
+}
+
+function render() {
+  const ts = terms(), re = reTerms(ts);
+  let rows = state.items
+    .filter((it) => state.service === "all" || it.service === state.service)
+    .map((it) => ({ it, s: score(it, ts) }))
+    .filter((r) => r.s > 0);
+  const sort = $("sort").value;
+  if (sort === "newest") rows.sort((a, b) => (b.it.date || "").localeCompare(a.it.date || ""));
+  else if (sort === "title") rows.sort((a, b) => a.it.title.localeCompare(b.it.title));
+  else rows.sort((a, b) => b.s - a.s || (b.it.date || "").localeCompare(a.it.date || ""));
+
+  const scope = state.service === "all" ? "all services" : state.service;
+  $("status").textContent = ts.length
+    ? `${rows.length} result${rows.length === 1 ? "" : "s"} for “${$("q").value.trim()}” in ${scope}`
+    : `${rows.length} item${rows.length === 1 ? "" : "s"} in ${scope}`;
+
+  $("list").innerHTML = rows.length ? rows.map(({ it }) => {
+    const props = Object.entries(it.properties).filter(([k]) => k !== "Task").slice(0, 5);
+    return `<div class="result" role="button" tabindex="0" data-id="${esc(it.id)}" aria-selected="${state.selected === it.id}">
+      <div class="row1"><span class="badge" style="color:${serviceColor(it.service)}">${esc(it.service)}</span>
+        <span class="title">${it.icon ? esc(it.icon) + " " : ""}${highlight(it.title, re)}</span></div>
+      <div class="meta">${esc(fmtDate(it.date))}${it.parent ? " · in " + esc(it.parent) : ""}</div>
+      ${props.length ? `<div class="props">${props.map(([k, v]) => `<span class="prop">${esc(k)}: ${highlight(propText(v), re)}</span>`).join("")}</div>` : ""}
+      <div class="snippet">${snippet(it, ts, re)}</div>
+    </div>`;
+  }).join("") : `<div class="empty">No matches. Try fewer or different words.</div>`;
+}
+
+// Minimal renderer for the Notion-flavored Markdown that notion-fetch returns.
+function renderMarkdown(md) {
+  const inline = (s) => esc(s.replace(/\\([~*_`#\[\]])/g, "$1"))
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/`(.+?)`/g, "<code>$1</code>");
+  const out = []; let list = null;
+  const closeList = () => { if (list) { out.push(`</${list}>`); list = null; } };
+  const openList = (tag) => { if (list !== tag) { closeList(); out.push(`<${tag}>`); list = tag; } };
+  md = md.replace(/<mention-date start="([^"]+)"[^>]*\/>/g, (_, d) => fmtDate(d));
+  for (const raw of md.split("\n")) {
+    const line = raw.trim(); let m;
+    if (!line) { closeList(); continue; }
+    if ((m = line.match(/^<page url="([^"]+)"[^>]*>(.*)<\/page>$/))) { openList("ul"); out.push(`<li>📄 <a href="${esc(m[1])}" target="_blank" rel="noopener">${inline(m[2])}</a></li>`); continue; }
+    if ((m = line.match(/^<database url="([^"]+)"[^>]*>(.*)<\/database>$/))) { openList("ul"); out.push(`<li>🗃️ <a href="${esc(m[1])}" target="_blank" rel="noopener">${inline(m[2])}</a></li>`); continue; }
+    if ((m = line.match(/^<callout(?:[^>]*icon="([^"]*)")?[^>]*>$/))) { closeList(); out.push(`<div class="callout"><span>${esc(m[1] || "")}</span><div>`); continue; }
+    if (line === "</callout>") { closeList(); out.push("</div></div>"); continue; }
+    if ((m = line.match(/^(#{1,6}) (.*)$/))) { closeList(); const n = Math.min(m[1].length + 1, 4); out.push(`<h${n}>${inline(m[2])}</h${n}>`); continue; }
+    if ((m = line.match(/^- \[( |x)\] (.*)$/))) { openList("ul"); out.push(`<li class="task${m[1] === "x" ? " done" : ""}">${m[1] === "x" ? "☑" : "☐"} ${inline(m[2])}</li>`); continue; }
+    if ((m = line.match(/^[-*] (.*)$/))) { openList("ul"); out.push(`<li>${inline(m[1])}</li>`); continue; }
+    if ((m = line.match(/^\d+\. (.*)$/))) { openList("ol"); out.push(`<li>${inline(m[1])}</li>`); continue; }
+    closeList(); out.push(`<p>${inline(line.replace(/<[^>]+>/g, ""))}</p>`);
+  }
+  closeList();
+  return out.join("");
+}
+
+function showDetail(id) {
+  const it = state.items.find((x) => x.id === id);
+  if (!it) return;
+  state.selected = id;
+  document.querySelectorAll(".result").forEach((el) => el.setAttribute("aria-selected", el.dataset.id === id));
+  const props = Object.entries(it.properties);
+  $("detail").innerHTML = `
+    <span class="badge" style="color:${serviceColor(it.service)}">${esc(it.service)}</span>
+    <h2>${it.icon ? esc(it.icon) + " " : ""}${esc(it.title)}</h2>
+    <div class="meta">Last edited ${esc(fmtDate(it.date))}${it.parent ? " · in " + esc(it.parent) : ""}
+      ${it.url ? ` · <a href="${esc(it.url)}" target="_blank" rel="noopener">Open in ${esc(it.service)} ↗</a>` : ""}</div>
+    ${props.length ? `<table class="props-table">${props.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(propText(v))}</td></tr>`).join("")}</table>` : ""}
+    <div class="content">${it.content ? renderMarkdown(it.content) : '<p class="meta">This item has no body text.</p>'}</div>
+    <p class="meta" style="margin-top:24px">Stored at dataExports/${esc(it.path)} · exported ${esc(fmtDate(it.exportedAt))}</p>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch("/api/items");
+    const data = await res.json();
+    state.items = data.items; state.services = data.services;
+    const names = data.services.map((s) => `${s.name} (${s.count})`).join(", ");
+    $("sub").textContent = data.items.length
+      ? `${data.items.length} items from ${data.services.length} service${data.services.length === 1 ? "" : "s"}: ${names}`
+      : "No downloaded data yet. Run a download skill (e.g. /download-notion) first.";
+    readHash(); renderChips(); render();
+    if (state.selected) showDetail(state.selected);
+  } catch (e) {
+    $("sub").textContent = "Could not load /api/items. Is dashboard/server.py running?";
+  }
+}
+
+// The current search lives in the URL hash (#q=...&service=...&sort=...&open=<id>) so a view can be bookmarked or shared.
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  $("q").value = p.get("q") || "";
+  if (p.get("sort")) $("sort").value = p.get("sort");
+  const svc = p.get("service");
+  state.service = svc && state.services.some((s) => s.name === svc) ? svc : "all";
+  state.selected = p.get("open");
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  if ($("q").value.trim()) p.set("q", $("q").value.trim());
+  if (state.service !== "all") p.set("service", state.service);
+  if ($("sort").value !== "relevance") p.set("sort", $("sort").value);
+  if (state.selected) p.set("open", state.selected);
+  history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
+}
+
+$("q").addEventListener("input", () => { render(); writeHash(); });
+$("sort").addEventListener("change", () => { render(); writeHash(); });
+$("chips").addEventListener("click", (e) => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  state.service = b.dataset.s; renderChips(); render(); writeHash();
+});
+$("list").addEventListener("click", (e) => { const r = e.target.closest(".result"); if (r) { showDetail(r.dataset.id); writeHash(); } });
+$("list").addEventListener("keydown", (e) => {
+  const r = e.target.closest(".result");
+  if (r && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); showDetail(r.dataset.id); writeHash(); }
+});
+load();
+</script>
+</body>
+</html>

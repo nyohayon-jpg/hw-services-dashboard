@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-api",
+  "title": "nyohayon-jpg/apollo-api",
+  "date": "2026-10-18T18:36:19Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-api",
+  "searchText": "nyohayon-jpg/apollo-api repo nyohayon-jpg/apollo-api nyohayon-jpg apollo-api project apollo – fastapi backend for greenleaf grocers inventory & sales dashboard (bluebird labs) public main # apollo-api fastapi backend for **project apollo**, built by bluebird labs for greenleaf grocers. ## team - joe smith – project lead - maya cohen – backend - daniel levi – frontend - priya shah – data / imports - client contact: sarah kim (greenleaf grocers) ## endpoints (planned) - `get /products` – product catalog per store - `get /sales?range=7d|30d` – sales summaries - `get /alerts/stock` – low-stock alerts ## run locally ```bash pip install -r requirements.txt uvicorn app.main:app --reload ``` 2026-10-18t18:36:10z 2026-10-18t18:36:19z 2026-10-18t18:36:16z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "search_repositories",
+      "get_file_contents"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "repo",
+    "fullName": "nyohayon-jpg/apollo-api",
+    "owner": "nyohayon-jpg",
+    "name": "apollo-api",
+    "description": "Project Apollo – FastAPI backend for Greenleaf Grocers inventory & sales dashboard (Bluebird Labs)",
+    "visibility": "public",
+    "defaultBranch": "main",
+    "language": null,
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "license": null,
+    "homepage": null,
+    "readme": "# apollo-api\n\nFastAPI backend for **Project Apollo**, built by Bluebird Labs for Greenleaf Grocers.\n\n## Team\n- Joe Smith – project lead\n- Maya Cohen – backend\n- Daniel Levi – frontend\n- Priya Shah – data / imports\n- Client contact: Sarah Kim (Greenleaf Grocers)\n\n## Endpoints (planned)\n- `GET /products` – product catalog per store\n- `GET /sales?range=7d|30d` – sales summaries\n- `GET /alerts/stock` – low-stock alerts\n\n## Run locally\n```bash\npip install -r requirements.txt\nuvicorn app.main:app --reload\n```\n",
+    "createdAt": "2026-10-18T18:36:10Z",
+    "updatedAt": "2026-10-18T18:36:19Z",
+    "pushedAt": "2026-10-18T18:36:16Z",
+    "raw": {
+      "id": 1424694046,
+      "name": "apollo-api",
+      "full_name": "nyohayon-jpg/apollo-api",
+      "description": "Project Apollo – FastAPI backend for Greenleaf Grocers inventory & sales dashboard (Bluebird Labs)",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-api",
+      "private": false,
+      "visibility": "public",
+      "default_branch": "main",
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-10-18T18:36:10Z",
+      "updated_at": "2026-10-18T18:36:19Z",
+      "pushed_at": "2026-10-18T18:36:16Z",
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 1
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/2",
+  "title": "7-day / 30-day sales toggle",
+  "date": "2026-10-18T18:36:53Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/2",
+  "searchText": "7-day / 30-day sales toggle issue nyohayon-jpg/apollo-dashboard-web add a toggle on the sales chart to switch between last 7 days and last 30 days. uses `get /sales?range=7d|30d` from apollo-api. owner: daniel levi, api support from maya cohen. open nyohayon-jpg backend frontend 2026-10-18t18:36:53z 2026-10-18t18:36:53z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_issues",
+      "issue_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "issue",
+    "repo": "nyohayon-jpg/apollo-dashboard-web",
+    "number": 2,
+    "body": "Add a toggle on the sales chart to switch between last 7 days and last 30 days. Uses `GET /sales?range=7d|30d` from apollo-api.\n\nOwner: Daniel Levi, API support from Maya Cohen.",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "backend",
+      "frontend"
+    ],
+    "milestone": null,
+    "merged": null,
+    "draft": null,
+    "comments": [],
+    "createdAt": "2026-10-18T18:36:53Z",
+    "updatedAt": "2026-10-18T18:36:53Z",
+    "closedAt": null,
+    "raw": {
+      "number": 2,
+      "title": "7-day / 30-day sales toggle",
+      "body": "Add a toggle on the sales chart to switch between last 7 days and last 30 days. Uses `GET /sales?range=7d|30d` from apollo-api.\n\nOwner: Daniel Levi, API support from Maya Cohen.",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "backend",
+        "frontend"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:36:53Z",
+      "updated_at": "2026-10-18T18:36:53Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/2",
+      "comments": 0
+    }
+  }
+}

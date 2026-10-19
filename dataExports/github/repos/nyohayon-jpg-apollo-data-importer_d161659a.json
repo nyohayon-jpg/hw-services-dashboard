@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-data-importer",
+  "title": "nyohayon-jpg/apollo-data-importer",
+  "date": "2026-10-18T18:36:33Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-data-importer",
+  "searchText": "nyohayon-jpg/apollo-data-importer repo nyohayon-jpg/apollo-data-importer nyohayon-jpg apollo-data-importer project apollo – nightly greenleaf grocers csv importer (bluebird labs) public main # apollo-data-importer nightly job that imports greenleaf grocers' csv exports (products, stock, sales) into the project apollo database. ## how it works 1. greenleaf it drops csvs on sftp each night 2. importer validates rows and keys products by `(store_id, product_id)` 3. data is upserted into the apollo-api database ## team priya shah (owner), maya cohen (backend). client contact: sarah kim. ## run ```bash python import.py --date yyyy-mm-dd ``` 2026-10-18t18:36:24z 2026-10-18t18:36:33z 2026-10-18t18:37:08z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "search_repositories",
+      "get_file_contents"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "repo",
+    "fullName": "nyohayon-jpg/apollo-data-importer",
+    "owner": "nyohayon-jpg",
+    "name": "apollo-data-importer",
+    "description": "Project Apollo – nightly Greenleaf Grocers CSV importer (Bluebird Labs)",
+    "visibility": "public",
+    "defaultBranch": "main",
+    "language": null,
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 3,
+    "license": null,
+    "homepage": null,
+    "readme": "# apollo-data-importer\n\nNightly job that imports Greenleaf Grocers' CSV exports (products, stock, sales) into the Project Apollo database.\n\n## How it works\n1. Greenleaf IT drops CSVs on SFTP each night\n2. Importer validates rows and keys products by `(store_id, product_id)`\n3. Data is upserted into the apollo-api database\n\n## Team\nPriya Shah (owner), Maya Cohen (backend). Client contact: Sarah Kim.\n\n## Run\n```bash\npython import.py --date YYYY-MM-DD\n```\n",
+    "createdAt": "2026-10-18T18:36:24Z",
+    "updatedAt": "2026-10-18T18:36:33Z",
+    "pushedAt": "2026-10-18T18:37:08Z",
+    "raw": {
+      "id": 1424694224,
+      "name": "apollo-data-importer",
+      "full_name": "nyohayon-jpg/apollo-data-importer",
+      "description": "Project Apollo – nightly Greenleaf Grocers CSV importer (Bluebird Labs)",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-data-importer",
+      "private": false,
+      "visibility": "public",
+      "default_branch": "main",
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-10-18T18:36:24Z",
+      "updated_at": "2026-10-18T18:36:33Z",
+      "pushed_at": "2026-10-18T18:37:08Z",
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 3
+    }
+  }
+}

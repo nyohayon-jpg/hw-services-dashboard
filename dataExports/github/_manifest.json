@@ -1,0 +1,103 @@
+{
+  "service": "github",
+  "schemaVersion": "1.0",
+  "items": {
+    "https://github.com/nyohayon-jpg/apollo-api": {
+      "path": "repos/nyohayon-jpg-apollo-api_b482263d.json",
+      "title": "nyohayon-jpg/apollo-api",
+      "date": "2026-10-18T18:36:19Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-dashboard-web": {
+      "path": "repos/nyohayon-jpg-apollo-dashboard-web_6f61acca.json",
+      "title": "nyohayon-jpg/apollo-dashboard-web",
+      "date": "2026-10-18T18:36:26Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-data-importer": {
+      "path": "repos/nyohayon-jpg-apollo-data-importer_d161659a.json",
+      "title": "nyohayon-jpg/apollo-data-importer",
+      "date": "2026-10-18T18:36:33Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-api/issues/1": {
+      "path": "issues/apollo-api-1_add-stock-alerts-endpoint_7dfa83eb.json",
+      "title": "Add stock alerts endpoint",
+      "date": "2026-10-18T18:37:24Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/1": {
+      "path": "issues/apollo-dashboard-web-1_export-to-excel-button_a252c3a2.json",
+      "title": "Export to Excel button",
+      "date": "2026-10-18T18:36:52Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/2": {
+      "path": "issues/apollo-dashboard-web-2_7-day-30-day-sales-toggle_d82926b6.json",
+      "title": "7-day / 30-day sales toggle",
+      "date": "2026-10-18T18:36:53Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/3": {
+      "path": "issues/apollo-dashboard-web-3_hebrew-and-english-interface_95e02fcc.json",
+      "title": "Hebrew and English interface",
+      "date": "2026-10-18T18:37:27Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-dashboard-web/pull/4": {
+      "path": "issues/apollo-dashboard-web-4_add-component-library-cards_20eed0dd.json",
+      "title": "Add component library cards",
+      "date": "2026-10-18T18:37:29Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-data-importer/issues/1": {
+      "path": "issues/apollo-data-importer-1_duplicate-product-ids-across-stores_4b21da53.json",
+      "title": "Duplicate product IDs across stores",
+      "date": "2026-10-18T18:37:25Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-data-importer/issues/2": {
+      "path": "issues/apollo-data-importer-2_confirm-nightly-import-time-with-greenle_b129cbf7.json",
+      "title": "Confirm nightly import time with Greenleaf IT",
+      "date": "2026-10-18T18:37:26Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    },
+    "https://github.com/nyohayon-jpg/apollo-data-importer/pull/3": {
+      "path": "issues/apollo-data-importer-3_use-store-id-product-id-as-key_9cd10c27.json",
+      "title": "Use (store_id, product_id) as key",
+      "date": "2026-10-18T18:37:28Z",
+      "firstExportedAt": "2026-10-19T00:16:39Z",
+      "lastExportedAt": "2026-10-19T00:16:39Z"
+    }
+  },
+  "runs": [
+    {
+      "at": "2026-10-19T00:16:39Z",
+      "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments",
+      "count": 11,
+      "ids": [
+        "https://github.com/nyohayon-jpg/apollo-api",
+        "https://github.com/nyohayon-jpg/apollo-dashboard-web",
+        "https://github.com/nyohayon-jpg/apollo-data-importer",
+        "https://github.com/nyohayon-jpg/apollo-api/issues/1",
+        "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/1",
+        "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/2",
+        "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/3",
+        "https://github.com/nyohayon-jpg/apollo-dashboard-web/pull/4",
+        "https://github.com/nyohayon-jpg/apollo-data-importer/issues/1",
+        "https://github.com/nyohayon-jpg/apollo-data-importer/issues/2",
+        "https://github.com/nyohayon-jpg/apollo-data-importer/pull/3"
+      ]
+    }
+  ]
+}

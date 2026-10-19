@@ -1,0 +1,151 @@
+{
+  "service": "notion",
+  "schemaVersion": "1.0",
+  "items": {
+    "3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef": {
+      "path": "pages/bluebird-labs-project-apollo-hub_62a2157b",
+      "title": "Bluebird Labs – Project Apollo Hub",
+      "date": "2026-10-18T17:02:47.777Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-816c-92a2-cddeb95c9cbc": {
+      "path": "pages/kickoff-meeting-notes-oct-5_c9698ab2",
+      "title": "Kickoff Meeting Notes – Oct 5",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8195-b2b5-f8b74fc4ea3f": {
+      "path": "pages/product-requirements-project-apollo-beta_93143def",
+      "title": "Product Requirements – Project Apollo Beta",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8128-9487-f0a0b147b9c1": {
+      "path": "pages/design-review-dashboard-wireframes_099edaa9",
+      "title": "Design Review – Dashboard Wireframes",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-81cc-9c4d-d64582ed1658": {
+      "path": "pages/backend-architecture-data-pipeline_079b02b8",
+      "title": "Backend Architecture – Data Pipeline",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8109-be2f-cf954dfc19d6": {
+      "path": "pages/weekly-status-report-week-2_c6e9e33f",
+      "title": "Weekly Status Report – Week 2",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8115-8f7b-dac14fddfb4d": {
+      "path": "pages/bug-triage-duplicate-product-ids_003ebb55",
+      "title": "Bug Triage – Duplicate Product IDs",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8120-a39f-fc6709c93cfc": {
+      "path": "pages/client-call-with-sarah-kim-oct-16_e5ac00d3",
+      "title": "Client Call with Sarah Kim – Oct 16",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-810c-a5ac-f0f76bbceeb7": {
+      "path": "pages/qa-test-plan-beta-release_96d20dfa",
+      "title": "QA Test Plan – Beta Release",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8117-bab1-ffaa8a0b892c": {
+      "path": "pages/beta-launch-checklist_c41a21c9",
+      "title": "Beta Launch Checklist",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8170-90e4-ff2f056440b4": {
+      "path": "pages/retrospective-ideas-backlog_8cd2391c",
+      "title": "Retrospective & Ideas Backlog",
+      "date": "2026-10-18T17:03:15.557Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-819c-a8b1-d7f1d2ecef33": {
+      "path": "pages/high-fidelity-mockups_4fdcf324",
+      "title": "High-fidelity mockups",
+      "date": "2026-10-18T17:03:31.434Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8170-ac07-d13b08ee015b": {
+      "path": "pages/component-library_3ded0199",
+      "title": "Component library",
+      "date": "2026-10-18T17:03:31.434Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-81ad-b004-ed57866a71a9": {
+      "path": "pages/export-to-excel-button_397bdb7b",
+      "title": "Export to Excel button",
+      "date": "2026-10-18T17:03:31.434Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8111-ae95-e72eb374ba99": {
+      "path": "pages/run-qa-test-plan_56a8fd1d",
+      "title": "Run QA test plan",
+      "date": "2026-10-18T17:03:31.434Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-81e8-9ddc-dfcf0dea1b0f": {
+      "path": "pages/nightly-importer-for-greenleaf-sales-csv_09c33b3c",
+      "title": "Nightly importer for Greenleaf sales CSV",
+      "date": "2026-10-18T17:03:31.434Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    },
+    "3fd2137e-c7db-8140-8d7b-d6466c3dc2ae": {
+      "path": "pages/training-session-for-pilot-store-manager_8b0d33d3",
+      "title": "Training session for pilot store managers",
+      "date": "2026-10-18T17:03:31.434Z",
+      "firstExportedAt": "2026-10-18T17:17:24Z",
+      "lastExportedAt": "2026-10-18T17:17:24Z"
+    }
+  },
+  "runs": [
+    {
+      "at": "2026-10-18T17:17:24Z",
+      "query": "Everything under the Notion page \"Bluebird Labs – Project Apollo Hub\": the hub, all its sub-pages, and every row of the \"Apollo Task Tracker\" database",
+      "count": 17,
+      "ids": [
+        "3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef",
+        "3fd2137e-c7db-816c-92a2-cddeb95c9cbc",
+        "3fd2137e-c7db-8195-b2b5-f8b74fc4ea3f",
+        "3fd2137e-c7db-8128-9487-f0a0b147b9c1",
+        "3fd2137e-c7db-81cc-9c4d-d64582ed1658",
+        "3fd2137e-c7db-8109-be2f-cf954dfc19d6",
+        "3fd2137e-c7db-8115-8f7b-dac14fddfb4d",
+        "3fd2137e-c7db-8120-a39f-fc6709c93cfc",
+        "3fd2137e-c7db-810c-a5ac-f0f76bbceeb7",
+        "3fd2137e-c7db-8117-bab1-ffaa8a0b892c",
+        "3fd2137e-c7db-8170-90e4-ff2f056440b4",
+        "3fd2137e-c7db-819c-a8b1-d7f1d2ecef33",
+        "3fd2137e-c7db-8170-ac07-d13b08ee015b",
+        "3fd2137e-c7db-81ad-b004-ed57866a71a9",
+        "3fd2137e-c7db-8111-ae95-e72eb374ba99",
+        "3fd2137e-c7db-81e8-9ddc-dfcf0dea1b0f",
+        "3fd2137e-c7db-8140-8d7b-d6466c3dc2ae"
+      ]
+    }
+  ]
+}

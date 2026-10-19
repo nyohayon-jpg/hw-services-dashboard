@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0",
+  "service": "notion",
+  "id": "3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef",
+  "title": "Bluebird Labs – Project Apollo Hub",
+  "date": "2026-10-18T17:02:47.777Z",
+  "url": "https://www.notion.so/3fd2137ec7db81e2bb07c3bcedf6c5ef",
+  "searchText": "bluebird labs – project apollo hub page workspace 🚀 2026-10-18t17:02:47.777z page_last_edited_at (notion-fetch returned no created time or authors) 3fd2137e-c7db-816c-92a2-cddeb95c9cbc kickoff meeting notes – oct 5 3fd2137e-c7db-8195-b2b5-f8b74fc4ea3f product requirements – project apollo beta 3fd2137e-c7db-8128-9487-f0a0b147b9c1 design review – dashboard wireframes 3fd2137e-c7db-81cc-9c4d-d64582ed1658 backend architecture – data pipeline 3fd2137e-c7db-8109-be2f-cf954dfc19d6 weekly status report – week 2 3fd2137e-c7db-8115-8f7b-dac14fddfb4d bug triage – duplicate product ids 3fd2137e-c7db-8120-a39f-fc6709c93cfc client call with sarah kim – oct 16 3fd2137e-c7db-810c-a5ac-f0f76bbceeb7 qa test plan – beta release 3fd2137e-c7db-8117-bab1-ffaa8a0b892c beta launch checklist 3fd2137e-c7db-8170-90e4-ff2f056440b4 retrospective & ideas backlog team wiki for **bluebird labs**, a small startup building **project apollo**: a customer analytics dashboard for greenleaf grocers. ## team - **joe smith** – product manager - **maya cohen** – ux/ui designer - **daniel levi** – backend engineer - **priya shah** – frontend engineer - **sarah kim** – client contact at greenleaf grocers ## key dates - kickoff: <mention-date start=\"2026-10-05\"/> - beta release: <mention-date start=\"2026-11-02\"/> - public launch: <mention-date start=\"2026-11-30\"/> <callout icon=\"📌\" color=\"blue_bg\"> all meeting notes, specs and plans for project apollo live under this page. </callout> <page url=\"https://app.notion.com/p/3fd2137ec7db816c92a2cddeb95c9cbc\">kickoff meeting notes – oct 5</page> <page url=\"https://app.notion.com/p/3fd2137ec7db8195b2b5f8b74fc4ea3f\">product requirements – project apollo beta</page> <page url=\"https://app.notion.com/p/3fd2137ec7db81289487f0a0b147b9c1\">design review – dashboard wireframes</page> <page url=\"https://app.notion.com/p/3fd2137ec7db81cc9c4dd64582ed1658\">backend architecture – data pipeline</page> <page url=\"https://app.notion.com/p/3fd2137ec7db8109be2fcf954dfc19d6\">weekly status report – week 2</page> <page url=\"https://app.notion.com/p/3fd2137ec7db81158f7bdac14fddfb4d\">bug triage – duplicate product ids</page> <page url=\"https://app.notion.com/p/3fd2137ec7db8120a39ffc6709c93cfc\">client call with sarah kim – oct 16</page> <page url=\"https://app.notion.com/p/3fd2137ec7db810ca5acf0f76bbceeb7\">qa test plan – beta release</page> <page url=\"https://app.notion.com/p/3fd2137ec7db8117bab1ffaa8a0b892c\">beta launch checklist</page> <page url=\"https://app.notion.com/p/3fd2137ec7db817090e4ff2f056440b4\">retrospective & ideas backlog</page> <database url=\"https://app.notion.com/p/d639e7a1dbd84d46a43843244375ac8c\" inline=\"false\" data-source-url=\"collection://be1dfc1a-ecb7-4fe9-8946-99734fd904d1\">apollo task tracker</database>",
+  "exportedAt": "2026-10-18T17:17:24Z",
+  "source": {
+    "mcpServer": "notion",
+    "tools": [
+      "notion-search",
+      "notion-fetch"
+    ],
+    "query": "Everything under the Notion page \"Bluebird Labs – Project Apollo Hub\": the hub, all its sub-pages, and every row of the \"Apollo Task Tracker\" database"
+  },
+  "data": {
+    "objectType": "page",
+    "parent": {
+      "type": "workspace",
+      "id": null,
+      "title": null
+    },
+    "icon": "🚀",
+    "createdTime": null,
+    "lastEditedTime": "2026-10-18T17:02:47.777Z",
+    "createdBy": null,
+    "lastEditedBy": null,
+    "archived": false,
+    "dateSource": "page_last_edited_at (notion-fetch returned no created time or authors)",
+    "properties": {},
+    "childPages": [
+      {
+        "id": "3fd2137e-c7db-816c-92a2-cddeb95c9cbc",
+        "title": "Kickoff Meeting Notes – Oct 5"
+      },
+      {
+        "id": "3fd2137e-c7db-8195-b2b5-f8b74fc4ea3f",
+        "title": "Product Requirements – Project Apollo Beta"
+      },
+      {
+        "id": "3fd2137e-c7db-8128-9487-f0a0b147b9c1",
+        "title": "Design Review – Dashboard Wireframes"
+      },
+      {
+        "id": "3fd2137e-c7db-81cc-9c4d-d64582ed1658",
+        "title": "Backend Architecture – Data Pipeline"
+      },
+      {
+        "id": "3fd2137e-c7db-8109-be2f-cf954dfc19d6",
+        "title": "Weekly Status Report – Week 2"
+      },
+      {
+        "id": "3fd2137e-c7db-8115-8f7b-dac14fddfb4d",
+        "title": "Bug Triage – Duplicate Product IDs"
+      },
+      {
+        "id": "3fd2137e-c7db-8120-a39f-fc6709c93cfc",
+        "title": "Client Call with Sarah Kim – Oct 16"
+      },
+      {
+        "id": "3fd2137e-c7db-810c-a5ac-f0f76bbceeb7",
+        "title": "QA Test Plan – Beta Release"
+      },
+      {
+        "id": "3fd2137e-c7db-8117-bab1-ffaa8a0b892c",
+        "title": "Beta Launch Checklist"
+      },
+      {
+        "id": "3fd2137e-c7db-8170-90e4-ff2f056440b4",
+        "title": "Retrospective & Ideas Backlog"
+      }
+    ],
+    "raw": {
+      "metadata": {
+        "type": "page"
+      },
+      "title": "🚀 Bluebird Labs – Project Apollo Hub",
+      "url": "https://app.notion.com/p/3fd2137ec7db81e2bb07c3bcedf6c5ef?pvs=204",
+      "fetchedAt": "2026-10-18T17:03:22.240Z",
+      "ancestorPath": [],
+      "properties": {
+        "title": "Bluebird Labs – Project Apollo Hub"
+      },
+      "iconMetadata": {
+        "type": "emoji",
+        "emoji": "🚀"
+      },
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "🚀"
+      },
+      "verification": {
+        "state": "unverified"
+      },
+      "page_last_edited_at": "2026-10-18T17:02:47.777Z",
+      "childDatabases": [
+        {
+          "id": "d639e7a1-dbd8-4d46-a438-43244375ac8c",
+          "url": "https://app.notion.com/p/d639e7a1dbd84d46a43843244375ac8c",
+          "dataSourceUrl": "collection://be1dfc1a-ecb7-4fe9-8946-99734fd904d1",
+          "title": "Apollo Task Tracker",
+          "inline": false
+        }
+      ]
+    },
+    "contentFile": "content.md",
+    "contentLength": 1906
+  }
+}

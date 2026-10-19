@@ -1,0 +1,1 @@
+30-minute session for the Dizengoff, Florentin and Ramat Aviv store managers.

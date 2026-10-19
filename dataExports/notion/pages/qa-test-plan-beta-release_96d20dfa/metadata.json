@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "service": "notion",
+  "id": "3fd2137e-c7db-810c-a5ac-f0f76bbceeb7",
+  "title": "QA Test Plan – Beta Release",
+  "date": "2026-10-18T17:03:15.557Z",
+  "url": "https://www.notion.so/3fd2137ec7db810ca5acf0f76bbceeb7",
+  "searchText": "qa test plan – beta release page page 3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef bluebird labs – project apollo hub 🧪 2026-10-18t17:03:15.557z page_last_edited_at (notion-fetch returned no created time or authors) owner: **priya shah** ## scope all three dashboard cards on chrome (desktop) and safari (ipad). ## test cases 1. sales card shows yesterday's total for the selected store 2. 7-day / 30-day toggle changes the chart 3. top products shows exactly 10 items, no duplicates 4. stock alert appears when stock is below the reorder level 5. page loads in under 2 seconds on store wi-fi ## schedule testing runs from <mention-date start=\"2026-10-26\"/> to <mention-date start=\"2026-10-30\"/>.",
+  "exportedAt": "2026-10-18T17:17:24Z",
+  "source": {
+    "mcpServer": "notion",
+    "tools": [
+      "notion-search",
+      "notion-fetch"
+    ],
+    "query": "Everything under the Notion page \"Bluebird Labs – Project Apollo Hub\": the hub, all its sub-pages, and every row of the \"Apollo Task Tracker\" database"
+  },
+  "data": {
+    "objectType": "page",
+    "parent": {
+      "type": "page",
+      "id": "3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef",
+      "title": "Bluebird Labs – Project Apollo Hub"
+    },
+    "icon": "🧪",
+    "createdTime": null,
+    "lastEditedTime": "2026-10-18T17:03:15.557Z",
+    "createdBy": null,
+    "lastEditedBy": null,
+    "archived": false,
+    "dateSource": "page_last_edited_at (notion-fetch returned no created time or authors)",
+    "properties": {},
+    "childPages": [],
+    "raw": {
+      "metadata": {
+        "type": "page"
+      },
+      "title": "🧪 QA Test Plan – Beta Release",
+      "url": "https://app.notion.com/p/3fd2137ec7db810ca5acf0f76bbceeb7?pvs=204",
+      "fetchedAt": "2026-10-18T17:03:15.595Z",
+      "ancestorPath": [
+        {
+          "type": "parent-page",
+          "url": "https://app.notion.com/p/3fd2137ec7db81e2bb07c3bcedf6c5ef",
+          "title": "Bluebird Labs – Project Apollo Hub"
+        }
+      ],
+      "properties": {
+        "title": "QA Test Plan – Beta Release"
+      },
+      "iconMetadata": {
+        "type": "emoji",
+        "emoji": "🧪"
+      },
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "🧪"
+      },
+      "verification": {
+        "state": "unverified"
+      },
+      "page_last_edited_at": "2026-10-18T17:03:15.557Z",
+      "path": "Bluebird Labs – Project Apollo Hub"
+    },
+    "contentFile": "content.md",
+    "contentLength": 480
+  }
+}

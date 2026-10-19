@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "service": "notion",
+  "id": "3fd2137e-c7db-81cc-9c4d-d64582ed1658",
+  "title": "Backend Architecture – Data Pipeline",
+  "date": "2026-10-18T17:03:15.557Z",
+  "url": "https://www.notion.so/3fd2137ec7db81cc9c4dd64582ed1658",
+  "searchText": "backend architecture – data pipeline page page 3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef bluebird labs – project apollo hub 🛠️ 2026-10-18t17:03:15.557z page_last_edited_at (notion-fetch returned no created time or authors) author: **daniel levi** ## overview nightly job imports the greenleaf point-of-sale csv export, cleans it and loads it into postgresql. the dashboard reads from a small rest api. ## components - **importer** – python script, runs at 02:00 every night - **database** – postgresql 16, tables: stores, products, sales, stock_levels - **api** – fastapi, endpoints /sales/daily, /products/top, /stock/alerts ## open questions - how long should raw csv files be kept? (daniel suggests 90 days) - does greenleaf need real-time stock updates? ask sarah kim.",
+  "exportedAt": "2026-10-18T17:17:24Z",
+  "source": {
+    "mcpServer": "notion",
+    "tools": [
+      "notion-search",
+      "notion-fetch"
+    ],
+    "query": "Everything under the Notion page \"Bluebird Labs – Project Apollo Hub\": the hub, all its sub-pages, and every row of the \"Apollo Task Tracker\" database"
+  },
+  "data": {
+    "objectType": "page",
+    "parent": {
+      "type": "page",
+      "id": "3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef",
+      "title": "Bluebird Labs – Project Apollo Hub"
+    },
+    "icon": "🛠️",
+    "createdTime": null,
+    "lastEditedTime": "2026-10-18T17:03:15.557Z",
+    "createdBy": null,
+    "lastEditedBy": null,
+    "archived": false,
+    "dateSource": "page_last_edited_at (notion-fetch returned no created time or authors)",
+    "properties": {},
+    "childPages": [],
+    "raw": {
+      "metadata": {
+        "type": "page"
+      },
+      "title": "🛠️ Backend Architecture – Data Pipeline",
+      "url": "https://app.notion.com/p/3fd2137ec7db81cc9c4dd64582ed1658?pvs=204",
+      "fetchedAt": "2026-10-18T17:03:15.589Z",
+      "ancestorPath": [
+        {
+          "type": "parent-page",
+          "url": "https://app.notion.com/p/3fd2137ec7db81e2bb07c3bcedf6c5ef",
+          "title": "Bluebird Labs – Project Apollo Hub"
+        }
+      ],
+      "properties": {
+        "title": "Backend Architecture – Data Pipeline"
+      },
+      "iconMetadata": {
+        "type": "emoji",
+        "emoji": "🛠️"
+      },
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "🛠️"
+      },
+      "verification": {
+        "state": "unverified"
+      },
+      "page_last_edited_at": "2026-10-18T17:03:15.557Z",
+      "path": "Bluebird Labs – Project Apollo Hub"
+    },
+    "contentFile": "content.md",
+    "contentLength": 549
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "service": "notion",
+  "id": "3fd2137e-c7db-8109-be2f-cf954dfc19d6",
+  "title": "Weekly Status Report – Week 2",
+  "date": "2026-10-18T17:03:15.557Z",
+  "url": "https://www.notion.so/3fd2137ec7db8109be2fcf954dfc19d6",
+  "searchText": "weekly status report – week 2 page page 3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef bluebird labs – project apollo hub 📈 2026-10-18t17:03:15.557z page_last_edited_at (notion-fetch returned no created time or authors) **week of** <mention-date start=\"2026-10-12\"/> · written by **joe smith** ## done - wireframes reviewed and approved (maya cohen) - sample sales data received from greenleaf (daniel levi) ## in progress - importer script – 60% (daniel levi) - component library – 30% (priya shah) ## risks - greenleaf data has duplicate product ids; daniel is writing a cleanup step. - beta date of nov 2 is tight but still realistic.",
+  "exportedAt": "2026-10-18T17:17:24Z",
+  "source": {
+    "mcpServer": "notion",
+    "tools": [
+      "notion-search",
+      "notion-fetch"
+    ],
+    "query": "Everything under the Notion page \"Bluebird Labs – Project Apollo Hub\": the hub, all its sub-pages, and every row of the \"Apollo Task Tracker\" database"
+  },
+  "data": {
+    "objectType": "page",
+    "parent": {
+      "type": "page",
+      "id": "3fd2137e-c7db-81e2-bb07-c3bcedf6c5ef",
+      "title": "Bluebird Labs – Project Apollo Hub"
+    },
+    "icon": "📈",
+    "createdTime": null,
+    "lastEditedTime": "2026-10-18T17:03:15.557Z",
+    "createdBy": null,
+    "lastEditedBy": null,
+    "archived": false,
+    "dateSource": "page_last_edited_at (notion-fetch returned no created time or authors)",
+    "properties": {},
+    "childPages": [],
+    "raw": {
+      "metadata": {
+        "type": "page"
+      },
+      "title": "📈 Weekly Status Report – Week 2",
+      "url": "https://app.notion.com/p/3fd2137ec7db8109be2fcf954dfc19d6?pvs=204",
+      "fetchedAt": "2026-10-18T17:03:15.591Z",
+      "ancestorPath": [
+        {
+          "type": "parent-page",
+          "url": "https://app.notion.com/p/3fd2137ec7db81e2bb07c3bcedf6c5ef",
+          "title": "Bluebird Labs – Project Apollo Hub"
+        }
+      ],
+      "properties": {
+        "title": "Weekly Status Report – Week 2"
+      },
+      "iconMetadata": {
+        "type": "emoji",
+        "emoji": "📈"
+      },
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "📈"
+      },
+      "verification": {
+        "state": "unverified"
+      },
+      "page_last_edited_at": "2026-10-18T17:03:15.557Z",
+      "path": "Bluebird Labs – Project Apollo Hub"
+    },
+    "contentFile": "content.md",
+    "contentLength": 417
+  }
+}

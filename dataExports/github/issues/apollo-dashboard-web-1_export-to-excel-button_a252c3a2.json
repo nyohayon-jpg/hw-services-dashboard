@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0",
+  "service": "github",
+  "id": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/1",
+  "title": "Export to Excel button",
+  "date": "2026-10-18T18:36:52Z",
+  "url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/1",
+  "searchText": "export to excel button issue nyohayon-jpg/apollo-dashboard-web store managers want to export the current sales table to .xlsx. - button above the sales table - exports the currently filtered range (7d / 30d) owner: daniel levi. open nyohayon-jpg frontend 2026-10-18t18:36:52z 2026-10-18t18:36:52z",
+  "exportedAt": "2026-10-19T00:16:39Z",
+  "source": {
+    "mcpServer": "github",
+    "tools": [
+      "list_issues",
+      "issue_read"
+    ],
+    "query": "Download all Project Apollo repositories owned by nyohayon-jpg, with every issue and pull request (all states) and their comments"
+  },
+  "data": {
+    "kind": "issue",
+    "repo": "nyohayon-jpg/apollo-dashboard-web",
+    "number": 1,
+    "body": "Store managers want to export the current sales table to .xlsx.\n\n- Button above the sales table\n- Exports the currently filtered range (7d / 30d)\n\nOwner: Daniel Levi.",
+    "state": "open",
+    "stateReason": null,
+    "author": "nyohayon-jpg",
+    "assignees": [],
+    "labels": [
+      "frontend"
+    ],
+    "milestone": null,
+    "merged": null,
+    "draft": null,
+    "comments": [],
+    "createdAt": "2026-10-18T18:36:52Z",
+    "updatedAt": "2026-10-18T18:36:52Z",
+    "closedAt": null,
+    "raw": {
+      "number": 1,
+      "title": "Export to Excel button",
+      "body": "Store managers want to export the current sales table to .xlsx.\n\n- Button above the sales table\n- Exports the currently filtered range (7d / 30d)\n\nOwner: Daniel Levi.",
+      "state": "open",
+      "user": {
+        "login": "nyohayon-jpg"
+      },
+      "labels": [
+        "frontend"
+      ],
+      "assignees": [],
+      "created_at": "2026-10-18T18:36:52Z",
+      "updated_at": "2026-10-18T18:36:52Z",
+      "html_url": "https://github.com/nyohayon-jpg/apollo-dashboard-web/issues/1",
+      "comments": 0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Python job that loads the point-of-sale export into PostgreSQL every night at 02:00. Must use (store_id, product_id) as the key.
