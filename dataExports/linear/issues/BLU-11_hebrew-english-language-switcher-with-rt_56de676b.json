@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "9257104d-0bdf-4447-9ee2-285bab51f635",
+  "title": "Hebrew / English language switcher with RTL layout",
+  "date": "2026-10-19T00:43:26.256Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-11/hebrew-english-language-switcher-with-rtl-layout",
+  "searchText": "hebrew / english language switcher with rtl layout blu-11 greenleaf staff use both hebrew and english. planned for v1.1 (out of scope for the beta). * he / en switcher in the header * rtl layout when hebrew is selected * move all ui strings into translation files backlog low 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon feature 2026-10-19t00:43:26.256z 2026-10-19t00:43:26.256z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-11",
+    "description": "Greenleaf staff use both Hebrew and English. Planned for v1.1 (out of scope for the beta).\n\n* HE / EN switcher in the header\n* RTL layout when Hebrew is selected\n* Move all UI strings into translation files",
+    "state": "Backlog",
+    "priority": 4,
+    "priorityLabel": "Low",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [
+      "Feature"
+    ],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [],
+    "createdAt": "2026-10-19T00:43:26.256Z",
+    "updatedAt": "2026-10-19T00:43:26.256Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-11",
+      "uuid": "9257104d-0bdf-4447-9ee2-285bab51f635",
+      "title": "Hebrew / English language switcher with RTL layout",
+      "description": "Greenleaf staff use both Hebrew and English. Planned for v1.1 (out of scope for the beta).\n\n* HE / EN switcher in the header\n* RTL layout when Hebrew is selected\n* Move all UI strings into translation files",
+      "priority": {
+        "value": 4,
+        "name": "Low"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-11/hebrew-english-language-switcher-with-rtl-layout",
+      "createdAt": "2026-10-19T00:43:26.256Z",
+      "updatedAt": "2026-10-19T00:43:26.256Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "Backlog",
+      "labels": [
+        "Feature"
+      ],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

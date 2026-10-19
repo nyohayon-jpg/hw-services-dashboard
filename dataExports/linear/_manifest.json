@@ -1,0 +1,87 @@
+{
+  "service": "linear",
+  "schemaVersion": "1.0",
+  "items": {
+    "03edc315-ba02-479e-ba7a-72d6b0f56123": {
+      "path": "issues/BLU-6_backfill-products-overwritten-by-the-oct_f168deee.json",
+      "title": "Backfill products overwritten by the Oct 15 import",
+      "date": "2026-10-19T00:43:44.451Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "21fc5329-ed61-40c2-b684-10c74c3c25d1": {
+      "path": "issues/BLU-13_training-session-for-pilot-store-manager_71dab183.json",
+      "title": "Training session for pilot store managers",
+      "date": "2026-10-19T00:43:28.698Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "25430451-438e-4771-8059-4573600e139d": {
+      "path": "issues/BLU-12_get-hebrew-terminology-list-from-sarah-k_e6e3c749.json",
+      "title": "Get Hebrew terminology list from Sarah Kim",
+      "date": "2026-10-19T00:43:27.164Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "9257104d-0bdf-4447-9ee2-285bab51f635": {
+      "path": "issues/BLU-11_hebrew-english-language-switcher-with-rt_56de676b.json",
+      "title": "Hebrew / English language switcher with RTL layout",
+      "date": "2026-10-19T00:43:26.256Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "415517ac-9cd2-453b-bbd6-c7a658b3292c": {
+      "path": "issues/BLU-10_export-to-excel-button-for-the-weekly-sa_95fade62.json",
+      "title": "Export to Excel button for the weekly sales table",
+      "date": "2026-10-19T00:43:24.754Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "956890ab-3e65-4246-aa2e-64773a4fe2d2": {
+      "path": "issues/BLU-9_per-product-stock-alert-thresholds_f570ddd9.json",
+      "title": "Per-product stock alert thresholds",
+      "date": "2026-10-19T00:43:23.041Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "5c21accc-23a8-4de3-8c72-cf8ef8a8d540": {
+      "path": "issues/BLU-8_low-stock-alerts-panel-on-the-dashboard_23072b03.json",
+      "title": "Low-stock alerts panel on the dashboard",
+      "date": "2026-10-19T00:43:21.121Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "2cd720cc-fe7d-41ba-8e8c-1499fd0c1740": {
+      "path": "issues/BLU-7_confirm-nightly-import-time-with-greenle_964b8872.json",
+      "title": "Confirm nightly import time with Greenleaf IT",
+      "date": "2026-10-19T00:43:18.709Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    },
+    "15db910f-39c8-44ae-ae90-4782f1ff7a89": {
+      "path": "issues/BLU-5_fix-duplicate-product-ids-across-stores_ae7cb378.json",
+      "title": "Fix duplicate product IDs across stores in nightly import",
+      "date": "2026-10-19T00:43:16.246Z",
+      "firstExportedAt": "2026-10-19T00:44:46Z",
+      "lastExportedAt": "2026-10-19T00:44:46Z"
+    }
+  },
+  "runs": [
+    {
+      "at": "2026-10-19T00:44:46Z",
+      "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments",
+      "count": 9,
+      "ids": [
+        "03edc315-ba02-479e-ba7a-72d6b0f56123",
+        "21fc5329-ed61-40c2-b684-10c74c3c25d1",
+        "25430451-438e-4771-8059-4573600e139d",
+        "9257104d-0bdf-4447-9ee2-285bab51f635",
+        "415517ac-9cd2-453b-bbd6-c7a658b3292c",
+        "956890ab-3e65-4246-aa2e-64773a4fe2d2",
+        "5c21accc-23a8-4de3-8c72-cf8ef8a8d540",
+        "2cd720cc-fe7d-41ba-8e8c-1499fd0c1740",
+        "15db910f-39c8-44ae-ae90-4782f1ff7a89"
+      ]
+    }
+  ]
+}

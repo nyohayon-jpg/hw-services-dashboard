@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "25430451-438e-4771-8059-4573600e139d",
+  "title": "Get Hebrew terminology list from Sarah Kim",
+  "date": "2026-10-19T00:43:27.164Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-12/get-hebrew-terminology-list-from-sarah-kim",
+  "searchText": "get hebrew terminology list from sarah kim blu-12 before translating the ui, get greenleaf's preferred hebrew terms (e.g. for \"stock\", \"reorder\", \"top products\") from sarah kim so the dashboard matches what managers already say in store. backlog low 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon 2026-10-19t00:43:27.164z 2026-10-19t00:43:27.164z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-12",
+    "description": "Before translating the UI, get Greenleaf's preferred Hebrew terms (e.g. for \"stock\", \"reorder\", \"top products\") from Sarah Kim so the dashboard matches what managers already say in store.",
+    "state": "Backlog",
+    "priority": 4,
+    "priorityLabel": "Low",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [],
+    "createdAt": "2026-10-19T00:43:27.164Z",
+    "updatedAt": "2026-10-19T00:43:27.164Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-12",
+      "uuid": "25430451-438e-4771-8059-4573600e139d",
+      "title": "Get Hebrew terminology list from Sarah Kim",
+      "description": "Before translating the UI, get Greenleaf's preferred Hebrew terms (e.g. for \"stock\", \"reorder\", \"top products\") from Sarah Kim so the dashboard matches what managers already say in store.",
+      "priority": {
+        "value": 4,
+        "name": "Low"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-12/get-hebrew-terminology-list-from-sarah-kim",
+      "createdAt": "2026-10-19T00:43:27.164Z",
+      "updatedAt": "2026-10-19T00:43:27.164Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "Backlog",
+      "labels": [],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

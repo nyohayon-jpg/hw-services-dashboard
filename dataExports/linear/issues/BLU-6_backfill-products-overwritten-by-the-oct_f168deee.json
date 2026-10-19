@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "03edc315-ba02-479e-ba7a-72d6b0f56123",
+  "title": "Backfill products overwritten by the Oct 15 import",
+  "date": "2026-10-19T00:43:44.451Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-6/backfill-products-overwritten-by-the-oct-15-import",
+  "searchText": "backfill products overwritten by the oct 15 import blu-6 after the duplicate product id fix, re-import the oct 15 greenleaf sales csv so the products that were overwritten (e.g. store 3 / store 7, product_id 10452) get their correct names and stock levels back. * re-run importer for oct 15 only * spot-check 10 products per affected store * tell sarah kim when the pilot data is clean again todo high 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon bug 2026-10-19t00:43:17.085z 2026-10-19t00:43:44.451z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-6",
+    "description": "After the duplicate product ID fix, re-import the Oct 15 Greenleaf sales CSV so the products that were overwritten (e.g. Store 3 / Store 7, product_id 10452) get their correct names and stock levels back.\n\n* Re-run importer for Oct 15 only\n* Spot-check 10 products per affected store\n* Tell Sarah Kim when the pilot data is clean again",
+    "state": "Todo",
+    "priority": 2,
+    "priorityLabel": "High",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [
+      "Bug"
+    ],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [],
+    "createdAt": "2026-10-19T00:43:17.085Z",
+    "updatedAt": "2026-10-19T00:43:44.451Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-6",
+      "uuid": "03edc315-ba02-479e-ba7a-72d6b0f56123",
+      "title": "Backfill products overwritten by the Oct 15 import",
+      "description": "After the duplicate product ID fix, re-import the Oct 15 Greenleaf sales CSV so the products that were overwritten (e.g. Store 3 / Store 7, product_id 10452) get their correct names and stock levels back.\n\n* Re-run importer for Oct 15 only\n* Spot-check 10 products per affected store\n* Tell Sarah Kim when the pilot data is clean again",
+      "priority": {
+        "value": 2,
+        "name": "High"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-6/backfill-products-overwritten-by-the-oct-15-import",
+      "createdAt": "2026-10-19T00:43:17.085Z",
+      "updatedAt": "2026-10-19T00:43:44.451Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "Todo",
+      "labels": [
+        "Bug"
+      ],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "15db910f-39c8-44ae-ae90-4782f1ff7a89",
+  "title": "Fix duplicate product IDs across stores in nightly import",
+  "date": "2026-10-19T00:43:16.246Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-5/fix-duplicate-product-ids-across-stores-in-nightly-import",
+  "searchText": "fix duplicate product ids across stores in nightly import blu-5 the oct 15 nightly import overwrote products because `product_id` is only unique **within** a store. store 3 and store 7 both have product_id 10452 (different items). fix: key products by `(store_id, product_id)`. code change is in apollo-data-importer pr \"use (store_id, product_id) as key\" (author priya shah, reviewer maya cohen). see notion: bug triage – duplicate product ids. done urgent 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon bug 20cea1ec-9bda-40c4-bd6b-4ec374b46198 nadav ohayon merged after maya cohen's review. last night's import ran clean: store 3 and store 7 now keep their own product 10452. 2026-10-19t00:43:37.298z 2026-10-19t00:43:16.246z 2026-10-19t00:43:16.246z 2026-10-19t00:43:16.307z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-5",
+    "description": "The Oct 15 nightly import overwrote products because `product_id` is only unique **within** a store. Store 3 and Store 7 both have product_id 10452 (different items).\n\nFix: key products by `(store_id, product_id)`. Code change is in apollo-data-importer PR \"Use (store_id, product_id) as key\" (author Priya Shah, reviewer Maya Cohen).\n\nSee Notion: Bug triage – duplicate product IDs.",
+    "state": "Done",
+    "priority": 1,
+    "priorityLabel": "Urgent",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [
+      "Bug"
+    ],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [
+      {
+        "id": "20cea1ec-9bda-40c4-bd6b-4ec374b46198",
+        "author": "Nadav Ohayon",
+        "body": "Merged after Maya Cohen's review. Last night's import ran clean: Store 3 and Store 7 now keep their own product 10452.",
+        "createdAt": "2026-10-19T00:43:37.298Z"
+      }
+    ],
+    "createdAt": "2026-10-19T00:43:16.246Z",
+    "updatedAt": "2026-10-19T00:43:16.246Z",
+    "completedAt": "2026-10-19T00:43:16.307Z",
+    "raw": {
+      "id": "BLU-5",
+      "uuid": "15db910f-39c8-44ae-ae90-4782f1ff7a89",
+      "title": "Fix duplicate product IDs across stores in nightly import",
+      "description": "The Oct 15 nightly import overwrote products because `product_id` is only unique **within** a store. Store 3 and Store 7 both have product_id 10452 (different items).\n\nFix: key products by `(store_id, product_id)`. Code change is in apollo-data-importer PR \"Use (store_id, product_id) as key\" (author Priya Shah, reviewer Maya Cohen).\n\nSee Notion: Bug triage – duplicate product IDs.",
+      "priority": {
+        "value": 1,
+        "name": "Urgent"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-5/fix-duplicate-product-ids-across-stores-in-nightly-import",
+      "createdAt": "2026-10-19T00:43:16.246Z",
+      "updatedAt": "2026-10-19T00:43:16.246Z",
+      "completedAt": "2026-10-19T00:43:16.307Z",
+      "dueDate": null,
+      "status": "Done",
+      "labels": [
+        "Bug"
+      ],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "956890ab-3e65-4246-aa2e-64773a4fe2d2",
+  "title": "Per-product stock alert thresholds",
+  "date": "2026-10-19T00:43:23.041Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-9/per-product-stock-alert-thresholds",
+  "searchText": "per-product stock alert thresholds blu-9 store managers want different reorder thresholds for fast and slow sellers. make the threshold configurable per product (default 10 units) and expose it in the stock alerts endpoint response. todo medium 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon improvement 2026-10-19t00:43:23.041z 2026-10-19t00:43:23.041z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-9",
+    "description": "Store managers want different reorder thresholds for fast and slow sellers. Make the threshold configurable per product (default 10 units) and expose it in the stock alerts endpoint response.",
+    "state": "Todo",
+    "priority": 3,
+    "priorityLabel": "Medium",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [
+      "Improvement"
+    ],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [],
+    "createdAt": "2026-10-19T00:43:23.041Z",
+    "updatedAt": "2026-10-19T00:43:23.041Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-9",
+      "uuid": "956890ab-3e65-4246-aa2e-64773a4fe2d2",
+      "title": "Per-product stock alert thresholds",
+      "description": "Store managers want different reorder thresholds for fast and slow sellers. Make the threshold configurable per product (default 10 units) and expose it in the stock alerts endpoint response.",
+      "priority": {
+        "value": 3,
+        "name": "Medium"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-9/per-product-stock-alert-thresholds",
+      "createdAt": "2026-10-19T00:43:23.041Z",
+      "updatedAt": "2026-10-19T00:43:23.041Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "Todo",
+      "labels": [
+        "Improvement"
+      ],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "415517ac-9cd2-453b-bbd6-c7a658b3292c",
+  "title": "Export to Excel button for the weekly sales table",
+  "date": "2026-10-19T00:43:24.754Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-10/export-to-excel-button-for-the-weekly-sales-table",
+  "searchText": "export to excel button for the weekly sales table blu-10 requested by sarah kim on the oct 16 client call. add an \"export to excel\" button above the sales table that downloads the currently filtered range (7d / 30d) as .xlsx. owner: daniel levi. github: apollo-dashboard-web \"export to excel button\". todo medium 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon feature ff624f7b-0766-4a4b-9509-efce91755c15 nadav ohayon sarah kim asked that the file name include the store name and date range, e.g. `dizengoff_sales_7d.xlsx`. 2026-10-19t00:43:38.702z 2026-10-19t00:43:24.754z 2026-10-19t00:43:24.754z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-10",
+    "description": "Requested by Sarah Kim on the Oct 16 client call. Add an \"Export to Excel\" button above the sales table that downloads the currently filtered range (7d / 30d) as .xlsx.\n\nOwner: Daniel Levi. GitHub: apollo-dashboard-web \"Export to Excel button\".",
+    "state": "Todo",
+    "priority": 3,
+    "priorityLabel": "Medium",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [
+      "Feature"
+    ],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [
+      {
+        "id": "ff624f7b-0766-4a4b-9509-efce91755c15",
+        "author": "Nadav Ohayon",
+        "body": "Sarah Kim asked that the file name include the store name and date range, e.g. `Dizengoff_sales_7d.xlsx`.",
+        "createdAt": "2026-10-19T00:43:38.702Z"
+      }
+    ],
+    "createdAt": "2026-10-19T00:43:24.754Z",
+    "updatedAt": "2026-10-19T00:43:24.754Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-10",
+      "uuid": "415517ac-9cd2-453b-bbd6-c7a658b3292c",
+      "title": "Export to Excel button for the weekly sales table",
+      "description": "Requested by Sarah Kim on the Oct 16 client call. Add an \"Export to Excel\" button above the sales table that downloads the currently filtered range (7d / 30d) as .xlsx.\n\nOwner: Daniel Levi. GitHub: apollo-dashboard-web \"Export to Excel button\".",
+      "priority": {
+        "value": 3,
+        "name": "Medium"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-10/export-to-excel-button-for-the-weekly-sales-table",
+      "createdAt": "2026-10-19T00:43:24.754Z",
+      "updatedAt": "2026-10-19T00:43:24.754Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "Todo",
+      "labels": [
+        "Feature"
+      ],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

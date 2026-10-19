@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "5c21accc-23a8-4de3-8c72-cf8ef8a8d540",
+  "title": "Low-stock alerts panel on the dashboard",
+  "date": "2026-10-19T00:43:21.121Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-8/low-stock-alerts-panel-on-the-dashboard",
+  "searchText": "low-stock alerts panel on the dashboard blu-8 show products below their reorder threshold on the home screen using the `alertcard` component. * data from apollo-api `get /alerts/stock` * group by store, sort by how far below threshold * nightly refresh is enough (sarah kim confirmed real-time isn't needed) in progress high 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon feature 2026-10-19t00:43:21.121z 2026-10-19t00:43:21.121z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-8",
+    "description": "Show products below their reorder threshold on the home screen using the `AlertCard` component.\n\n* Data from apollo-api `GET /alerts/stock`\n* Group by store, sort by how far below threshold\n* Nightly refresh is enough (Sarah Kim confirmed real-time isn't needed)",
+    "state": "In Progress",
+    "priority": 2,
+    "priorityLabel": "High",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [
+      "Feature"
+    ],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [],
+    "createdAt": "2026-10-19T00:43:21.121Z",
+    "updatedAt": "2026-10-19T00:43:21.121Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-8",
+      "uuid": "5c21accc-23a8-4de3-8c72-cf8ef8a8d540",
+      "title": "Low-stock alerts panel on the dashboard",
+      "description": "Show products below their reorder threshold on the home screen using the `AlertCard` component.\n\n* Data from apollo-api `GET /alerts/stock`\n* Group by store, sort by how far below threshold\n* Nightly refresh is enough (Sarah Kim confirmed real-time isn't needed)",
+      "priority": {
+        "value": 2,
+        "name": "High"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-8/low-stock-alerts-panel-on-the-dashboard",
+      "createdAt": "2026-10-19T00:43:21.121Z",
+      "updatedAt": "2026-10-19T00:43:21.121Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "In Progress",
+      "labels": [
+        "Feature"
+      ],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

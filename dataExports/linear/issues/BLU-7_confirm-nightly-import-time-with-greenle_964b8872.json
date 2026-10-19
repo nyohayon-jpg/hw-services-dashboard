@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "2cd720cc-fe7d-41ba-8e8c-1499fd0c1740",
+  "title": "Confirm nightly import time with Greenleaf IT",
+  "date": "2026-10-19T00:43:18.709Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-7/confirm-nightly-import-time-with-greenleaf-it",
+  "searchText": "confirm nightly import time with greenleaf it blu-7 we assume greenleaf's sales csvs land on sftp by 02:00. sarah kim (client contact) is checking the exact drop time with greenleaf it so the cron job doesn't run before the files arrive. owner: daniel levi (follow-up from the oct 16 client call). in progress high 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon 2e15ef28-5cd5-46a6-b4d0-5765160b8fd0 nadav ohayon sarah kim: greenleaf it says files usually land at 01:30, latest 02:15 on sundays. waiting on written confirmation before we lock the cron to 03:00. 2026-10-19t00:43:36.793z 2026-10-19t00:43:18.709z 2026-10-19t00:43:18.709z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-7",
+    "description": "We assume Greenleaf's sales CSVs land on SFTP by 02:00. Sarah Kim (client contact) is checking the exact drop time with Greenleaf IT so the cron job doesn't run before the files arrive.\n\nOwner: Daniel Levi (follow-up from the Oct 16 client call).",
+    "state": "In Progress",
+    "priority": 2,
+    "priorityLabel": "High",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [
+      {
+        "id": "2e15ef28-5cd5-46a6-b4d0-5765160b8fd0",
+        "author": "Nadav Ohayon",
+        "body": "Sarah Kim: Greenleaf IT says files usually land at 01:30, latest 02:15 on Sundays. Waiting on written confirmation before we lock the cron to 03:00.",
+        "createdAt": "2026-10-19T00:43:36.793Z"
+      }
+    ],
+    "createdAt": "2026-10-19T00:43:18.709Z",
+    "updatedAt": "2026-10-19T00:43:18.709Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-7",
+      "uuid": "2cd720cc-fe7d-41ba-8e8c-1499fd0c1740",
+      "title": "Confirm nightly import time with Greenleaf IT",
+      "description": "We assume Greenleaf's sales CSVs land on SFTP by 02:00. Sarah Kim (client contact) is checking the exact drop time with Greenleaf IT so the cron job doesn't run before the files arrive.\n\nOwner: Daniel Levi (follow-up from the Oct 16 client call).",
+      "priority": {
+        "value": 2,
+        "name": "High"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-7/confirm-nightly-import-time-with-greenleaf-it",
+      "createdAt": "2026-10-19T00:43:18.709Z",
+      "updatedAt": "2026-10-19T00:43:18.709Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "In Progress",
+      "labels": [],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}

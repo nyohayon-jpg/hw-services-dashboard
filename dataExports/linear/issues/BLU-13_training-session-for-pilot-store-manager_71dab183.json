@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "service": "linear",
+  "id": "21fc5329-ed61-40c2-b684-10c74c3c25d1",
+  "title": "Training session for pilot store managers",
+  "date": "2026-10-19T00:43:28.698Z",
+  "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-13/training-session-for-pilot-store-managers",
+  "searchText": "training session for pilot store managers blu-13 run a 30-minute tablet walkthrough for the managers of the three pilot stores: dizengoff, florentin and ramat aviv. coordinate the date with sarah kim after the qa test plan passes. todo medium 74d62586-83a0-47ec-90bf-dc7adb6db746 blu bluebird labs project apollo nadav ohayon 2026-10-19t00:43:28.698z 2026-10-19t00:43:28.698z",
+  "exportedAt": "2026-10-19T00:44:46Z",
+  "source": {
+    "mcpServer": "linear",
+    "tools": [
+      "list_issues",
+      "list_comments"
+    ],
+    "query": "All Project Apollo issues in team Bluebird Labs (any state), with comments"
+  },
+  "data": {
+    "identifier": "BLU-13",
+    "description": "Run a 30-minute tablet walkthrough for the managers of the three pilot stores: Dizengoff, Florentin and Ramat Aviv. Coordinate the date with Sarah Kim after the QA test plan passes.",
+    "state": "Todo",
+    "priority": 3,
+    "priorityLabel": "Medium",
+    "team": {
+      "id": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "key": "BLU",
+      "name": "Bluebird Labs"
+    },
+    "project": "Project Apollo",
+    "assignee": null,
+    "creator": "Nadav Ohayon",
+    "labels": [],
+    "dueDate": null,
+    "estimate": null,
+    "cycle": null,
+    "parentId": null,
+    "comments": [],
+    "createdAt": "2026-10-19T00:43:28.698Z",
+    "updatedAt": "2026-10-19T00:43:28.698Z",
+    "completedAt": null,
+    "raw": {
+      "id": "BLU-13",
+      "uuid": "21fc5329-ed61-40c2-b684-10c74c3c25d1",
+      "title": "Training session for pilot store managers",
+      "description": "Run a 30-minute tablet walkthrough for the managers of the three pilot stores: Dizengoff, Florentin and Ramat Aviv. Coordinate the date with Sarah Kim after the QA test plan passes.",
+      "priority": {
+        "value": 3,
+        "name": "Medium"
+      },
+      "estimate": null,
+      "url": "https://linear.app/bluebird-labs-apollo/issue/BLU-13/training-session-for-pilot-store-managers",
+      "createdAt": "2026-10-19T00:43:28.698Z",
+      "updatedAt": "2026-10-19T00:43:28.698Z",
+      "completedAt": null,
+      "dueDate": null,
+      "status": "Todo",
+      "labels": [],
+      "createdBy": "Nadav Ohayon",
+      "assignee": null,
+      "project": "Project Apollo",
+      "team": "Bluebird Labs",
+      "teamId": "74d62586-83a0-47ec-90bf-dc7adb6db746",
+      "parentId": null,
+      "cycleId": null
+    }
+  }
+}
